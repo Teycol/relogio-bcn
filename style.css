@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    max-width: 1349px;
+    max-height: 650px;
+    background-color: #020075;
+    margin-left:140px;
+    margin-right: 140px;
+    background: linear-gradient(270deg, #020075 0%, #790000 64.06%);
+}
+
+:root{
+    --font: font-family: 'Changa', sans-serif;
+    --font: font-family: 'Ceviche One', cursiva;
+}
+
+.relogio{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.display{
+    font-family: 'Changa', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 183px;
+    line-height: 337px;
+    text-align: center;
+    color: #ffb800;
+    transition: all 1s
+}
+
+footer{
+    font-family: 'Ceviche One', cursive;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 400px;
+    line-height: 42px;
+    transition: all 1s;
+
+    background: linear-gradient(180deg, #FFB800 0%, rgba(250, 255, 0, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+@media (max-width:721px){
+    .display{
+        font-size: 123px;
+        transition: all 1s;
+        margin-bottom: -70px
+    }
+
+    footer{
+        font-size: 35px;
+        transition: all 1s;
+        
+    }
+}
+
+@media (max-width:500px){
+    .display{
+        font-size: 80px;
+        transition: all 1s;
+        
+    }
+
+    footer{
+        font-size: 25px;
+        transition: all 1s;
+        font-weight: 400px;
+        line-height: 26px;
+        width: 58px;
+        height: 78px;
+        text-align: center;
+        transition: all 1s;
+        margin-top: -50px;
+    }
+}
+
+
+
+/*Nem vou falar que as cores é de um TIME kkkkkkk*/
